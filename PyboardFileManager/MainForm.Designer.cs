@@ -97,12 +97,12 @@
             this.btnREPL.ForeColor = System.Drawing.Color.Black;
             this.btnREPL.Image = ((System.Drawing.Image)(resources.GetObject("btnREPL.Image")));
             this.btnREPL.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnREPL.Location = new System.Drawing.Point(3, 396);
+            this.btnREPL.Location = new System.Drawing.Point(3, 366);
             this.btnREPL.Name = "btnREPL";
             this.btnREPL.Padding = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.btnREPL.Size = new System.Drawing.Size(73, 31);
+            this.btnREPL.Size = new System.Drawing.Size(73, 29);
             this.btnREPL.TabIndex = 10;
-            this.btnREPL.Text = "REPL";
+            this.btnREPL.Text = "终端";
             this.btnREPL.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnREPL.UseVisualStyleBackColor = false;
             this.btnREPL.Click += new System.EventHandler(this.btnREPL_Click);
@@ -112,12 +112,12 @@
             this.btnExport.BackColor = System.Drawing.SystemColors.Control;
             this.btnExport.Image = ((System.Drawing.Image)(resources.GetObject("btnExport.Image")));
             this.btnExport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExport.Location = new System.Drawing.Point(3, 214);
+            this.btnExport.Location = new System.Drawing.Point(3, 198);
             this.btnExport.Name = "btnExport";
             this.btnExport.Padding = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.btnExport.Size = new System.Drawing.Size(73, 30);
+            this.btnExport.Size = new System.Drawing.Size(73, 28);
             this.btnExport.TabIndex = 5;
-            this.btnExport.Text = "Export";
+            this.btnExport.Text = "导出";
             this.btnExport.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnExport.UseVisualStyleBackColor = false;
             this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
@@ -127,12 +127,12 @@
             this.btnMove.BackColor = System.Drawing.SystemColors.Control;
             this.btnMove.Image = ((System.Drawing.Image)(resources.GetObject("btnMove.Image")));
             this.btnMove.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMove.Location = new System.Drawing.Point(3, 282);
+            this.btnMove.Location = new System.Drawing.Point(3, 260);
             this.btnMove.Name = "btnMove";
             this.btnMove.Padding = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.btnMove.Size = new System.Drawing.Size(73, 30);
+            this.btnMove.Size = new System.Drawing.Size(73, 28);
             this.btnMove.TabIndex = 7;
-            this.btnMove.Text = "Move";
+            this.btnMove.Text = "移动";
             this.btnMove.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnMove.UseVisualStyleBackColor = false;
             this.btnMove.Click += new System.EventHandler(this.btnMove_Click);
@@ -142,12 +142,12 @@
             this.btnRun.BackColor = System.Drawing.SystemColors.Control;
             this.btnRun.Image = ((System.Drawing.Image)(resources.GetObject("btnRun.Image")));
             this.btnRun.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRun.Location = new System.Drawing.Point(3, 350);
+            this.btnRun.Location = new System.Drawing.Point(3, 323);
             this.btnRun.Name = "btnRun";
             this.btnRun.Padding = new System.Windows.Forms.Padding(8, 0, 6, 0);
-            this.btnRun.Size = new System.Drawing.Size(73, 30);
+            this.btnRun.Size = new System.Drawing.Size(73, 28);
             this.btnRun.TabIndex = 9;
-            this.btnRun.Text = "Run";
+            this.btnRun.Text = "运行";
             this.btnRun.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnRun.UseVisualStyleBackColor = false;
             this.btnRun.Click += new System.EventHandler(this.btnRun_Click);
@@ -157,12 +157,12 @@
             this.btnRefresh.BackColor = System.Drawing.SystemColors.Control;
             this.btnRefresh.Image = ((System.Drawing.Image)(resources.GetObject("btnRefresh.Image")));
             this.btnRefresh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRefresh.Location = new System.Drawing.Point(3, 34);
+            this.btnRefresh.Location = new System.Drawing.Point(3, 31);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Padding = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.btnRefresh.Size = new System.Drawing.Size(73, 30);
+            this.btnRefresh.Size = new System.Drawing.Size(73, 28);
             this.btnRefresh.TabIndex = 0;
-            this.btnRefresh.Text = "Refresh";
+            this.btnRefresh.Text = "刷新 ";
             this.btnRefresh.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnRefresh.UseVisualStyleBackColor = false;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
@@ -173,12 +173,12 @@
             this.btnMkdir.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnMkdir.Image = ((System.Drawing.Image)(resources.GetObject("btnMkdir.Image")));
             this.btnMkdir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMkdir.Location = new System.Drawing.Point(3, 67);
+            this.btnMkdir.Location = new System.Drawing.Point(3, 62);
             this.btnMkdir.Name = "btnMkdir";
             this.btnMkdir.Padding = new System.Windows.Forms.Padding(8, 0, 2, 0);
-            this.btnMkdir.Size = new System.Drawing.Size(73, 30);
+            this.btnMkdir.Size = new System.Drawing.Size(73, 28);
             this.btnMkdir.TabIndex = 1;
-            this.btnMkdir.Text = "MkDir";
+            this.btnMkdir.Text = "新目录";
             this.btnMkdir.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnMkdir.UseVisualStyleBackColor = false;
             this.btnMkdir.Click += new System.EventHandler(this.btnMkdir_Click);
@@ -188,12 +188,12 @@
             this.btnLoad.BackColor = System.Drawing.SystemColors.Control;
             this.btnLoad.Image = ((System.Drawing.Image)(resources.GetObject("btnLoad.Image")));
             this.btnLoad.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLoad.Location = new System.Drawing.Point(3, 180);
+            this.btnLoad.Location = new System.Drawing.Point(3, 166);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Padding = new System.Windows.Forms.Padding(4, 0, 3, 0);
-            this.btnLoad.Size = new System.Drawing.Size(73, 30);
+            this.btnLoad.Size = new System.Drawing.Size(73, 28);
             this.btnLoad.TabIndex = 4;
-            this.btnLoad.Text = "Load";
+            this.btnLoad.Text = "读取";
             this.btnLoad.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLoad.UseVisualStyleBackColor = false;
             this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
@@ -203,12 +203,12 @@
             this.btnNew.BackColor = System.Drawing.SystemColors.Control;
             this.btnNew.Image = ((System.Drawing.Image)(resources.GetObject("btnNew.Image")));
             this.btnNew.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNew.Location = new System.Drawing.Point(3, 112);
+            this.btnNew.Location = new System.Drawing.Point(3, 103);
             this.btnNew.Name = "btnNew";
             this.btnNew.Padding = new System.Windows.Forms.Padding(6, 0, 2, 0);
-            this.btnNew.Size = new System.Drawing.Size(73, 30);
+            this.btnNew.Size = new System.Drawing.Size(73, 28);
             this.btnNew.TabIndex = 2;
-            this.btnNew.Text = "New";
+            this.btnNew.Text = "新文件";
             this.btnNew.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnNew.UseVisualStyleBackColor = false;
             this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
@@ -218,12 +218,12 @@
             this.btnDelete.BackColor = System.Drawing.SystemColors.Control;
             this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
             this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDelete.Location = new System.Drawing.Point(3, 248);
+            this.btnDelete.Location = new System.Drawing.Point(3, 229);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Padding = new System.Windows.Forms.Padding(4, 0, 2, 0);
-            this.btnDelete.Size = new System.Drawing.Size(73, 30);
+            this.btnDelete.Size = new System.Drawing.Size(73, 28);
             this.btnDelete.TabIndex = 6;
-            this.btnDelete.Text = "Delete";
+            this.btnDelete.Text = "删除";
             this.btnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnDelete.UseVisualStyleBackColor = false;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
@@ -233,12 +233,12 @@
             this.btnOpen.BackColor = System.Drawing.SystemColors.Control;
             this.btnOpen.Image = ((System.Drawing.Image)(resources.GetObject("btnOpen.Image")));
             this.btnOpen.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOpen.Location = new System.Drawing.Point(3, 146);
+            this.btnOpen.Location = new System.Drawing.Point(3, 135);
             this.btnOpen.Name = "btnOpen";
             this.btnOpen.Padding = new System.Windows.Forms.Padding(6, 0, 4, 0);
-            this.btnOpen.Size = new System.Drawing.Size(73, 30);
+            this.btnOpen.Size = new System.Drawing.Size(73, 28);
             this.btnOpen.TabIndex = 3;
-            this.btnOpen.Text = "Open";
+            this.btnOpen.Text = "打开";
             this.btnOpen.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnOpen.UseVisualStyleBackColor = false;
             this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
@@ -262,8 +262,8 @@
             this.mainSplitter.Panel2.Controls.Add(this.pnlFileStatus);
             this.mainSplitter.Panel2.Controls.Add(this.pnlFileToolbar);
             this.mainSplitter.Panel2.Padding = new System.Windows.Forms.Padding(3);
-            this.mainSplitter.Size = new System.Drawing.Size(1046, 637);
-            this.mainSplitter.SplitterDistance = 344;
+            this.mainSplitter.Size = new System.Drawing.Size(1046, 588);
+            this.mainSplitter.SplitterDistance = 275;
             this.mainSplitter.TabIndex = 1;
             // 
             // panel1
@@ -274,7 +274,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(79, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(265, 634);
+            this.panel1.Size = new System.Drawing.Size(196, 585);
             this.panel1.TabIndex = 21;
             // 
             // lstDirectory
@@ -286,9 +286,9 @@
             this.lstDirectory.FormattingEnabled = true;
             this.lstDirectory.IntegralHeight = false;
             this.lstDirectory.ItemHeight = 21;
-            this.lstDirectory.Location = new System.Drawing.Point(0, 31);
+            this.lstDirectory.Location = new System.Drawing.Point(0, 29);
             this.lstDirectory.Name = "lstDirectory";
-            this.lstDirectory.Size = new System.Drawing.Size(265, 563);
+            this.lstDirectory.Size = new System.Drawing.Size(196, 519);
             this.lstDirectory.TabIndex = 18;
             this.lstDirectory.DoubleClick += new System.EventHandler(this.lstDirectory_DoubleClick);
             // 
@@ -301,15 +301,15 @@
             this.pnlPath.Location = new System.Drawing.Point(0, 0);
             this.pnlPath.Margin = new System.Windows.Forms.Padding(6, 3, 3, 3);
             this.pnlPath.Name = "pnlPath";
-            this.pnlPath.Size = new System.Drawing.Size(265, 31);
+            this.pnlPath.Size = new System.Drawing.Size(196, 29);
             this.pnlPath.TabIndex = 15;
             // 
             // lblPath
             // 
             this.lblPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPath.Location = new System.Drawing.Point(4, 7);
+            this.lblPath.Location = new System.Drawing.Point(4, 6);
             this.lblPath.Name = "lblPath";
-            this.lblPath.Size = new System.Drawing.Size(254, 16);
+            this.lblPath.Size = new System.Drawing.Size(254, 15);
             this.lblPath.TabIndex = 10;
             this.lblPath.Text = "/";
             this.lblPath.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
@@ -322,16 +322,16 @@
             this.pnlPathSummary.Controls.Add(this.lblFolderCount);
             this.pnlPathSummary.Controls.Add(this.label9);
             this.pnlPathSummary.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlPathSummary.Location = new System.Drawing.Point(0, 594);
+            this.pnlPathSummary.Location = new System.Drawing.Point(0, 548);
             this.pnlPathSummary.Name = "pnlPathSummary";
-            this.pnlPathSummary.Size = new System.Drawing.Size(265, 40);
+            this.pnlPathSummary.Size = new System.Drawing.Size(196, 37);
             this.pnlPathSummary.TabIndex = 17;
             // 
             // lblFileCount
             // 
             this.lblFileCount.AutoSize = true;
             this.lblFileCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFileCount.Location = new System.Drawing.Point(136, 12);
+            this.lblFileCount.Location = new System.Drawing.Point(136, 11);
             this.lblFileCount.Name = "lblFileCount";
             this.lblFileCount.Size = new System.Drawing.Size(32, 16);
             this.lblFileCount.TabIndex = 3;
@@ -340,17 +340,17 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(104, 14);
+            this.label7.Location = new System.Drawing.Point(104, 13);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(31, 13);
+            this.label7.Size = new System.Drawing.Size(35, 12);
             this.label7.TabIndex = 2;
-            this.label7.Text = "Files:";
+            this.label7.Text = "文件:";
             // 
             // lblFolderCount
             // 
             this.lblFolderCount.AutoSize = true;
             this.lblFolderCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFolderCount.Location = new System.Drawing.Point(67, 12);
+            this.lblFolderCount.Location = new System.Drawing.Point(67, 11);
             this.lblFolderCount.Name = "lblFolderCount";
             this.lblFolderCount.Size = new System.Drawing.Size(32, 16);
             this.lblFolderCount.TabIndex = 1;
@@ -359,11 +359,11 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(4, 14);
+            this.label9.Location = new System.Drawing.Point(4, 13);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(66, 13);
+            this.label9.Size = new System.Drawing.Size(47, 12);
             this.label9.TabIndex = 0;
-            this.label9.Text = "Sub-Folders:";
+            this.label9.Text = "子目录:";
             // 
             // pnlCommands
             // 
@@ -383,7 +383,7 @@
             this.pnlCommands.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlCommands.Location = new System.Drawing.Point(0, 3);
             this.pnlCommands.Name = "pnlCommands";
-            this.pnlCommands.Size = new System.Drawing.Size(79, 634);
+            this.pnlCommands.Size = new System.Drawing.Size(79, 585);
             this.pnlCommands.TabIndex = 20;
             // 
             // btnView
@@ -391,12 +391,12 @@
             this.btnView.BackColor = System.Drawing.SystemColors.Control;
             this.btnView.Image = ((System.Drawing.Image)(resources.GetObject("btnView.Image")));
             this.btnView.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnView.Location = new System.Drawing.Point(3, 316);
+            this.btnView.Location = new System.Drawing.Point(3, 292);
             this.btnView.Name = "btnView";
             this.btnView.Padding = new System.Windows.Forms.Padding(8, 0, 6, 0);
-            this.btnView.Size = new System.Drawing.Size(73, 30);
+            this.btnView.Size = new System.Drawing.Size(73, 28);
             this.btnView.TabIndex = 8;
-            this.btnView.Text = "View";
+            this.btnView.Text = "显示";
             this.btnView.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnView.UseVisualStyleBackColor = false;
             this.btnView.Click += new System.EventHandler(this.btnView_Click);
@@ -405,9 +405,9 @@
             // 
             this.label11.Location = new System.Drawing.Point(19, 4);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(60, 29);
+            this.label11.Size = new System.Drawing.Size(60, 27);
             this.label11.TabIndex = 9;
-            this.label11.Text = "Current Directory:";
+            this.label11.Text = "路径:";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // pnlSaveMessage
@@ -415,9 +415,9 @@
             this.pnlSaveMessage.BackColor = System.Drawing.SystemColors.Control;
             this.pnlSaveMessage.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnlSaveMessage.Controls.Add(this.label5);
-            this.pnlSaveMessage.Location = new System.Drawing.Point(220, 295);
+            this.pnlSaveMessage.Location = new System.Drawing.Point(220, 272);
             this.pnlSaveMessage.Name = "pnlSaveMessage";
-            this.pnlSaveMessage.Size = new System.Drawing.Size(295, 49);
+            this.pnlSaveMessage.Size = new System.Drawing.Size(166, 46);
             this.pnlSaveMessage.TabIndex = 20;
             this.pnlSaveMessage.Visible = false;
             // 
@@ -425,11 +425,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(17, 15);
+            this.label5.Location = new System.Drawing.Point(17, 14);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(255, 15);
+            this.label5.Size = new System.Drawing.Size(137, 15);
             this.label5.TabIndex = 21;
-            this.label5.Text = "File Saved And Uploaded Successfully.";
+            this.label5.Text = "文件保存和上传成功。";
             // 
             // scintilla1
             // 
@@ -439,15 +439,16 @@
             this.scintilla1.EolMode = ScintillaNET.Eol.Lf;
             this.scintilla1.IndentationGuides = ScintillaNET.IndentView.Real;
             this.scintilla1.Lexer = ScintillaNET.Lexer.Python;
-            this.scintilla1.Location = new System.Drawing.Point(3, 34);
+            this.scintilla1.Location = new System.Drawing.Point(3, 32);
             this.scintilla1.Name = "scintilla1";
             this.scintilla1.ScrollWidth = 1;
-            this.scintilla1.Size = new System.Drawing.Size(692, 563);
+            this.scintilla1.Size = new System.Drawing.Size(761, 519);
             this.scintilla1.TabIndents = true;
             this.scintilla1.TabIndex = 12;
             this.scintilla1.UseRightToLeftReadingLayout = false;
             this.scintilla1.WrapMode = ScintillaNET.WrapMode.None;
             this.scintilla1.TextChanged += new System.EventHandler(this.scintilla1_TextChanged);
+            this.scintilla1.Click += new System.EventHandler(this.scintilla1_Click);
             // 
             // pnlFileStatus
             // 
@@ -455,9 +456,9 @@
             this.pnlFileStatus.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnlFileStatus.Controls.Add(this.pnlEditToolbar);
             this.pnlFileStatus.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlFileStatus.Location = new System.Drawing.Point(3, 597);
+            this.pnlFileStatus.Location = new System.Drawing.Point(3, 551);
             this.pnlFileStatus.Name = "pnlFileStatus";
-            this.pnlFileStatus.Size = new System.Drawing.Size(692, 37);
+            this.pnlFileStatus.Size = new System.Drawing.Size(761, 34);
             this.pnlFileStatus.TabIndex = 18;
             this.pnlFileStatus.Resize += new System.EventHandler(this.pnlFileStatus_Resize);
             // 
@@ -477,45 +478,45 @@
             this.pnlEditToolbar.Controls.Add(this.btnReplaceAll);
             this.pnlEditToolbar.Controls.Add(this.btnSaveAs);
             this.pnlEditToolbar.Controls.Add(this.btnSave);
-            this.pnlEditToolbar.Location = new System.Drawing.Point(13, -2);
+            this.pnlEditToolbar.Location = new System.Drawing.Point(47, -2);
             this.pnlEditToolbar.Name = "pnlEditToolbar";
-            this.pnlEditToolbar.Size = new System.Drawing.Size(661, 37);
+            this.pnlEditToolbar.Size = new System.Drawing.Size(661, 34);
             this.pnlEditToolbar.TabIndex = 9;
             // 
             // btnFind
             // 
-            this.btnFind.Location = new System.Drawing.Point(407, 7);
+            this.btnFind.Location = new System.Drawing.Point(407, 6);
             this.btnFind.Name = "btnFind";
-            this.btnFind.Size = new System.Drawing.Size(55, 27);
+            this.btnFind.Size = new System.Drawing.Size(55, 25);
             this.btnFind.TabIndex = 20;
-            this.btnFind.Text = "Find";
+            this.btnFind.Text = "查找";
             this.btnFind.UseVisualStyleBackColor = false;
             this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(11, 13);
+            this.label2.Location = new System.Drawing.Point(11, 12);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(32, 13);
+            this.label2.Size = new System.Drawing.Size(35, 12);
             this.label2.TabIndex = 32;
-            this.label2.Text = "Help:";
+            this.label2.Text = "帮助:";
             // 
             // cboHelp
             // 
             this.cboHelp.FormattingEnabled = true;
-            this.cboHelp.Location = new System.Drawing.Point(45, 10);
+            this.cboHelp.Location = new System.Drawing.Point(45, 9);
             this.cboHelp.Name = "cboHelp";
-            this.cboHelp.Size = new System.Drawing.Size(164, 21);
+            this.cboHelp.Size = new System.Drawing.Size(164, 20);
             this.cboHelp.TabIndex = 13;
             this.cboHelp.SelectedIndexChanged += new System.EventHandler(this.cboHelp_SelectedIndexChanged);
             // 
             // btnEditRedo
             // 
             this.btnEditRedo.Image = ((System.Drawing.Image)(resources.GetObject("btnEditRedo.Image")));
-            this.btnEditRedo.Location = new System.Drawing.Point(245, 7);
+            this.btnEditRedo.Location = new System.Drawing.Point(245, 6);
             this.btnEditRedo.Name = "btnEditRedo";
-            this.btnEditRedo.Size = new System.Drawing.Size(28, 27);
+            this.btnEditRedo.Size = new System.Drawing.Size(28, 25);
             this.btnEditRedo.TabIndex = 15;
             this.btnEditRedo.UseVisualStyleBackColor = false;
             this.btnEditRedo.Click += new System.EventHandler(this.btnEditRedo_Click);
@@ -523,9 +524,9 @@
             // btnEditUndo
             // 
             this.btnEditUndo.Image = ((System.Drawing.Image)(resources.GetObject("btnEditUndo.Image")));
-            this.btnEditUndo.Location = new System.Drawing.Point(216, 7);
+            this.btnEditUndo.Location = new System.Drawing.Point(216, 6);
             this.btnEditUndo.Name = "btnEditUndo";
-            this.btnEditUndo.Size = new System.Drawing.Size(28, 27);
+            this.btnEditUndo.Size = new System.Drawing.Size(28, 25);
             this.btnEditUndo.TabIndex = 14;
             this.btnEditUndo.UseVisualStyleBackColor = false;
             this.btnEditUndo.Click += new System.EventHandler(this.btnEditUndo_Click);
@@ -533,9 +534,9 @@
             // btnEditDelete
             // 
             this.btnEditDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnEditDelete.Image")));
-            this.btnEditDelete.Location = new System.Drawing.Point(369, 7);
+            this.btnEditDelete.Location = new System.Drawing.Point(369, 6);
             this.btnEditDelete.Name = "btnEditDelete";
-            this.btnEditDelete.Size = new System.Drawing.Size(28, 27);
+            this.btnEditDelete.Size = new System.Drawing.Size(28, 25);
             this.btnEditDelete.TabIndex = 19;
             this.btnEditDelete.UseVisualStyleBackColor = false;
             this.btnEditDelete.Click += new System.EventHandler(this.btnEditDelete_Click);
@@ -543,9 +544,9 @@
             // btnEditPaste
             // 
             this.btnEditPaste.Image = ((System.Drawing.Image)(resources.GetObject("btnEditPaste.Image")));
-            this.btnEditPaste.Location = new System.Drawing.Point(340, 7);
+            this.btnEditPaste.Location = new System.Drawing.Point(340, 6);
             this.btnEditPaste.Name = "btnEditPaste";
-            this.btnEditPaste.Size = new System.Drawing.Size(28, 27);
+            this.btnEditPaste.Size = new System.Drawing.Size(28, 25);
             this.btnEditPaste.TabIndex = 18;
             this.btnEditPaste.UseVisualStyleBackColor = false;
             this.btnEditPaste.Click += new System.EventHandler(this.btnEditPaste_Click);
@@ -553,9 +554,9 @@
             // btnEditCopy
             // 
             this.btnEditCopy.Image = ((System.Drawing.Image)(resources.GetObject("btnEditCopy.Image")));
-            this.btnEditCopy.Location = new System.Drawing.Point(311, 7);
+            this.btnEditCopy.Location = new System.Drawing.Point(311, 6);
             this.btnEditCopy.Name = "btnEditCopy";
-            this.btnEditCopy.Size = new System.Drawing.Size(28, 27);
+            this.btnEditCopy.Size = new System.Drawing.Size(28, 25);
             this.btnEditCopy.TabIndex = 17;
             this.btnEditCopy.UseVisualStyleBackColor = false;
             this.btnEditCopy.Click += new System.EventHandler(this.btnEditCopy_Click);
@@ -563,30 +564,30 @@
             // btnEditCut
             // 
             this.btnEditCut.Image = ((System.Drawing.Image)(resources.GetObject("btnEditCut.Image")));
-            this.btnEditCut.Location = new System.Drawing.Point(282, 7);
+            this.btnEditCut.Location = new System.Drawing.Point(282, 6);
             this.btnEditCut.Name = "btnEditCut";
-            this.btnEditCut.Size = new System.Drawing.Size(28, 27);
+            this.btnEditCut.Size = new System.Drawing.Size(28, 25);
             this.btnEditCut.TabIndex = 16;
             this.btnEditCut.UseVisualStyleBackColor = false;
             this.btnEditCut.Click += new System.EventHandler(this.btnEditCut_Click);
             // 
             // btnReplaceAll
             // 
-            this.btnReplaceAll.Location = new System.Drawing.Point(463, 7);
+            this.btnReplaceAll.Location = new System.Drawing.Point(463, 6);
             this.btnReplaceAll.Name = "btnReplaceAll";
-            this.btnReplaceAll.Size = new System.Drawing.Size(58, 27);
+            this.btnReplaceAll.Size = new System.Drawing.Size(58, 25);
             this.btnReplaceAll.TabIndex = 21;
-            this.btnReplaceAll.Text = "Replace";
+            this.btnReplaceAll.Text = "替换";
             this.btnReplaceAll.UseVisualStyleBackColor = false;
             this.btnReplaceAll.Click += new System.EventHandler(this.btnReplaceAll_Click);
             // 
             // btnSaveAs
             // 
-            this.btnSaveAs.Location = new System.Drawing.Point(530, 7);
+            this.btnSaveAs.Location = new System.Drawing.Point(530, 6);
             this.btnSaveAs.Name = "btnSaveAs";
-            this.btnSaveAs.Size = new System.Drawing.Size(70, 27);
+            this.btnSaveAs.Size = new System.Drawing.Size(70, 25);
             this.btnSaveAs.TabIndex = 22;
-            this.btnSaveAs.Text = "Save As...";
+            this.btnSaveAs.Text = "另存...";
             this.btnSaveAs.UseVisualStyleBackColor = false;
             this.btnSaveAs.Click += new System.EventHandler(this.btnSaveAs_Click);
             // 
@@ -594,11 +595,11 @@
             // 
             this.btnSave.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(601, 7);
+            this.btnSave.Location = new System.Drawing.Point(601, 6);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(54, 27);
+            this.btnSave.Size = new System.Drawing.Size(54, 25);
             this.btnSave.TabIndex = 23;
-            this.btnSave.Text = "&Save";
+            this.btnSave.Text = "&保存";
             this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
@@ -608,7 +609,7 @@
             this.pnlFileToolbar.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlFileToolbar.Location = new System.Drawing.Point(3, 3);
             this.pnlFileToolbar.Name = "pnlFileToolbar";
-            this.pnlFileToolbar.Size = new System.Drawing.Size(692, 31);
+            this.pnlFileToolbar.Size = new System.Drawing.Size(761, 29);
             this.pnlFileToolbar.TabIndex = 0;
             // 
             // lblCurrentFile
@@ -619,9 +620,9 @@
             this.lblCurrentFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCurrentFile.Location = new System.Drawing.Point(0, 0);
             this.lblCurrentFile.Name = "lblCurrentFile";
-            this.lblCurrentFile.Size = new System.Drawing.Size(692, 31);
+            this.lblCurrentFile.Size = new System.Drawing.Size(761, 29);
             this.lblCurrentFile.TabIndex = 9;
-            this.lblCurrentFile.Text = "<current file>";
+            this.lblCurrentFile.Text = "<当前文件>";
             this.lblCurrentFile.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblCurrentFile.Click += new System.EventHandler(this.lblCurrentFile_Click);
             // 
@@ -641,13 +642,15 @@
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1046, 637);
+            this.ClientSize = new System.Drawing.Size(1046, 588);
             this.Controls.Add(this.mainSplitter);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pyboard File Manager";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.frmMain_DragDrop);

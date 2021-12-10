@@ -35,21 +35,27 @@ namespace PyboardFileManager
             // 
             // scintilla1
             // 
+            this.scintilla1.AutoCMaxHeight = 9;
+            this.scintilla1.BiDirectionality = ScintillaNET.BiDirectionalDisplayType.Disabled;
             this.scintilla1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.scintilla1.Location = new System.Drawing.Point(0, 0);
             this.scintilla1.Name = "scintilla1";
-            this.scintilla1.Size = new System.Drawing.Size(800, 450);
+            this.scintilla1.ScrollWidth = 1;
+            this.scintilla1.Size = new System.Drawing.Size(800, 415);
+            this.scintilla1.TabIndents = true;
             this.scintilla1.TabIndex = 0;
+            this.scintilla1.UseRightToLeftReadingLayout = false;
+            this.scintilla1.WrapMode = ScintillaNET.WrapMode.None;
             // 
             // Viewer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 415);
             this.Controls.Add(this.scintilla1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Viewer";
-            this.Text = "Viewer";
+            this.Text = "查看";
             this.ResumeLayout(false);
 
         }

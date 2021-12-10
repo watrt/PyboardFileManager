@@ -48,7 +48,7 @@
             this.txtDisplay.Name = "txtDisplay";
             this.txtDisplay.ReadOnly = true;
             this.txtDisplay.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtDisplay.Size = new System.Drawing.Size(955, 553);
+            this.txtDisplay.Size = new System.Drawing.Size(955, 510);
             this.txtDisplay.TabIndex = 0;
             this.txtDisplay.WordWrap = false;
             this.txtDisplay.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtDisplay_KeyDown);
@@ -66,14 +66,14 @@
             // 
             // TerminalForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(955, 553);
+            this.ClientSize = new System.Drawing.Size(955, 510);
             this.Controls.Add(this.txtDisplay);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TerminalForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "MicroPython REPL";
+            this.Text = "MicroPython 终端";
             this.Activated += new System.EventHandler(this.TerminalForm_Activated);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TerminalForm_FormClosing);
             this.Load += new System.EventHandler(this.TerminalForm_Load);
